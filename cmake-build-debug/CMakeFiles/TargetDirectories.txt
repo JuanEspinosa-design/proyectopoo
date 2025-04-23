@@ -1,0 +1,3 @@
+C:/Users/juanc/Desktop/CLionProjects/ProyectoPoodesarrollo/cmake-build-debug/CMakeFiles/ProyectoPoodesarrollo.dir
+C:/Users/juanc/Desktop/CLionProjects/ProyectoPoodesarrollo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/juanc/Desktop/CLionProjects/ProyectoPoodesarrollo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
