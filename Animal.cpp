@@ -16,8 +16,8 @@ void Animal::recibirAtaque(int daño) {
 }
 
 void Animal::mostrar() const {
-    cout << "[" << getNombre() << ", " << getVida() << ", " << getAtaque() << ", " << tipo << "]";
+    cout << "[" << nombre << ", " << vida << ", " << ataque << ", " << tipo << "]";
     if (vida == 0) {
-        cout << "Animal: " << getNombre() << " de tipo" << tipo << "murio" << endl;
+        cout << "Animal: " << nombre << " de tipo" << tipo << "murio" << endl;
     }
 }
