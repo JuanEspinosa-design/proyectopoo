@@ -148,16 +148,14 @@ file:///C:/Users/juanf/OneDrive/Desktop/Javeriana/2do_semestre/Programaci%C3%B3n
 
 | Nombre del Integrante | Rol Principal | Responsabilidades Clave |
 |-----------------------|--------------|-------------------------|
-| Samuel Cuervo | Desarrollador Backend | Arquitectura del sistema, coordinación del equipo |
-| Juan Felipe Sanchez | Desarrollador Backend - Desarrollador README | Implementación de `Ecosistema` y `Mapa` |
-| Juan Camilo Espinosa |  Líder de Proyecto - Desarrollador README | Lógica de comportamiento de criaturas |
-
+| Samuel Cuervo | Desarrollador Backend | Lógica de comportamiento de criaturas, lógica para ensamblar criaturas con el ecosistema, casillas y mapa |
+| Juan Felipe Sanchez | Desarrollador Backend - Desarrollador Doxygen file | Implementación de atributos unicos de las clases hijas como clases del entorno |
+| Juan Camilo Espinosa |  Líder de Proyecto - Desarrollador README | Arquitectura del sistema, coordinación del equipo, administrador del repositorio |
 
 **Contribuciones destacadas:**
-- **Samuel Cuervo**: Diseñó la jerarquía de clases base y el sistema de turnos
-- **Juan Felipe Sanchez**: Implementó el sistema de gestión de memoria con smart pointers
-- **Juan Camilo Espinosa**: Desarrolló los algoritmos de mutación y evolución
-
+- **Samuel Cuervo**:Implementó el sistema de gestión de memoria con smart pointers
+- **Juan Felipe Sanchez**: Diseño el mapa del juego teniendo en cuenta los ciclos e interacciones de criaturas, casillas, ecosistema
+- **Juan Camilo Espinosa**: Diseñó la jerarquía de clases base y el sistema de turnos
 ---
 
 ### AGRADECIMIENTOS ESPECIALES 🤍:
