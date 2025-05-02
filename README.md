@@ -38,12 +38,12 @@ classDiagram
         +int ataque
         +int posx
         +int posy
-        +moverse(Mapa& mapa) void
-        +actuar(Mapa& mapa)* void
-        +recibirAtaque(int daño) virtual void
-        +mostrar()* void
-        +getNombre() string
-        +getVida() int
+        +void moverse(Mapa& mapa) 
+        +void actuar(Mapa& mapa)* 
+        +virtual void recibirAtaque(int daño) 
+        +void mostrar()*
+        +string getNombre() 
+        +int getVida() 
     }
     
     class Animal {
@@ -51,42 +51,42 @@ classDiagram
         +int niveldehambre
         +string preferencia
         +string personalidad
-        +mutar() virtual void
-        +regenerarvida(int cantidad) void
+        +virtual void mutar() 
+        +void regenerarvida(int cantidad) 
     }
     
     class Planta {
        +int frutos
-        +getFrutos() int
-        +recibirAtaque(int daño) void
-        +actuar(Mapa& mapa) void
+        +int getFrutos() 
+        +void recibirAtaque(int daño) 
+        +void actuar(Mapa& mapa) 
     }
     
     class glorbo {
        +int escudo
-        +recibirAtaque(int daño) override void
-        +actuar(Mapa& mapa) override void
-        +getescudo() int
+        +override void recibirAtaque(int daño) 
+        +override void actuar(Mapa& mapa)
+        +int getescudo() 
     }
     
     class jirafa {
         +int salto
-        +recibirAtaque(int daño) override void
-        +actuar(Mapa& mapa) override void
-        +getsalto() int
-        +mutar() override void
+        +override void recibirAtaque(int daño) 
+        +override void actuar(Mapa& mapa) 
+        +int getsalto() 
+        +override void mutar() 
     }
     
     class Celda {
        -bool tieneAgua
         -bool tieneComida
         -vector<shared_ptr<CriaturaBase>> criaturas
-        +setAgua(bool agua) void
-        +setComida(bool comida) void
-        +hayAgua() bool
-        +hayComida() bool
-        +agregarCriatura(shared_ptr<CriaturaBase>) void
-        +eliminarCriatura(shared_ptr<CriaturaBase>) void
+        +void setAgua(bool agua) 
+        +void setComida(bool comida) 
+        +bool hayAgua() 
+        +bool hayComida() 
+        +oid agregarCriatura(shared_ptr<CriaturaBase>) 
+        +void eliminarCriatura(shared_ptr<CriaturaBase>) 
     }
     
     class Mapa {
@@ -94,20 +94,20 @@ classDiagram
         -int columnas
         -vector<vector<Celda>> celdas
         +obtenerCelda(int x, int y) Celda&
-        +mostrarMapa() void
-        +getFilas() int
-        +getColumnas() int
+        +void mostrarMapa() 
+        +int getFilas() 
+        +int getColumnas() 
     }
     
     class Ecosistema {
         -shared_ptr<Mapa> mapa
         -vector<shared_ptr<CriaturaBase>> criaturas
         -int cicloActual
-        +agregarCriatura(shared_ptr<CriaturaBase>, int x, int y) void
-        +simularTurno() void
-        +mostrarMapa() void
-        +removerMuertas() void
-        +agregarAguaAleatoria(int cantidad) void
+        +void agregarCriatura(shared_ptr<CriaturaBase>, int x, int y) 
+        +void simularTurno() 
+        +void mostrarMapa() 
+        +void removerMuertas() 
+        +void agregarAguaAleatoria(int cantidad) 
     }
     
     CriaturaBase <|-- Animal
