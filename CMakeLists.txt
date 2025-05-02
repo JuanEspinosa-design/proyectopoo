@@ -9,4 +9,14 @@ add_executable(ProyectoPoodesarrollo main.cpp
         Animal.cpp
         Animal.h
         Planta.cpp
-        Planta.h)
+        Planta.h
+        glorbo.cpp
+        glorbo.h
+        jirafa.cpp
+        jirafa.h
+        Ecosistema.cpp
+        Ecosistema.h
+        Mapa.cpp
+        Mapa.h
+        Celda.cpp
+        Celda.h)

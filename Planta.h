@@ -11,18 +11,23 @@ using namespace std;
 
 
 
-class Planta : CriaturaBase {
+class Planta : public CriaturaBase {
 protected:
-    string frutos;
-    public:
+    int frutos;
+public:
 
-    Planta(const string &nombre, int vida, int ataque, string frutos);
+    Planta(const string &nombre, int vida, int ataque, int frutos, int posx, int posy);
 
-    string getFrutos()const;;
+    int getFrutos()const;
 
-    void recibirAtaque();
+    void recibirAtaque(int daño);
 
-    virtual void mostrar()const;
+    void actuar(Mapa& mapa);
+
+
+
+
+    void mostrar()const override;
 };
 
 
