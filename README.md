@@ -1,4 +1,4 @@
-# 🌿🦒 Mundo de Criaturas - Simulación Ecosistémica con POO
+# 🌿🦒 Mundo de Criaturas - Simulación de Ecosistema con POO
 
 ## Descripción
 Simulación de un ecosistema virtual donde criaturas (animales y plantas) interactúan en un mapa bidimensional, implementando:
