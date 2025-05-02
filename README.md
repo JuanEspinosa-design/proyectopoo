@@ -2,7 +2,7 @@
 
 ## 📌 Descripción
 Simulación de un ecosistema virtual donde criaturas (animales y plantas) interactúan en un mapa bidimensional, implementando:
-- Herencia multinivel (`CriaturaBase → Animal → glorbo/jirafa`)
+- Herencia multiple (`CriaturaBase → Animal → glorbo/jirafa`)
 - Polimorfismo (métodos virtuales `actuar()`, `mostrar()`)
 - Gestión de memoria con smart pointers (`shared_ptr`, `weak_ptr`)
 - Relaciones de agregación/composición entre clases
@@ -12,7 +12,6 @@ Simulación de un ecosistema virtual donde criaturas (animales y plantas) intera
 classDiagram
     direction TB
     class CriaturaBase{
-        <<abstract>>
         +string nombre
         +int vida
         +int ataque
