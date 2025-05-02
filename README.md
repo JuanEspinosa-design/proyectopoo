@@ -130,9 +130,9 @@ classDiagram
     Animal <|-- glorbo
     Animal <|-- jirafa
     
-    Ecosistema  *--  Mapa
-    Mapa  *-- "*" Celda
-    Celda  o-- "*" CriaturaBase
+    Ecosistema  o--  Mapa
+    Mapa  o--  Celda
+    Celda  o--  CriaturaBase
     
     glorbo --> jirafa : ataca
     jirafa --> Planta : consume
