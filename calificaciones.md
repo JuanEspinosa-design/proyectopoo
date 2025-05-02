@@ -49,8 +49,8 @@
 |------------------------------|---------------|-------------|
 | **Colaboración y trabajo en equipo**   | 5             | Estuve presente en todas las reuniones |
 | **Responsabilidad y compromiso**          | 4             | Desarrolle todas mis tareas asignadas |
-| **Contribución técnica**     | 5             | Implementé el sistema de herencia y/o agregación |
-| **Uso de asistentes de IA**       | 4             | Use la IA de manera eficiente para darle mas densidad al proyecto/codigo |
+| **Contribución técnica**     | 4.5             | Implementé el sistema de herencia y/o agregación |
+| **Uso de asistentes de IA**       | 5             | Use la IA de manera eficiente para darle mas densidad al proyecto/codigo |
 | **Subtotal**                | **0/20**     |             |
 
 ### Coevaluacion SAMUEL CUERVO a JUAN CAMILO ESPINOSA:
@@ -58,9 +58,9 @@
 | Criterio                     | Puntaje (1-5) | Comentarios |
 |------------------------------|---------------|-------------|
 | **Colaboración y trabajo en equipo**   | 5             | Estuve presente en todas las reuniones |
-| **Responsabilidad y compromiso**          | 4             | Desarrolle todas mis tareas asignadas |
-| **Contribución técnica**     | 5             | Implementé el sistema de herencia y/o agregación |
-| **Uso de asistentes de IA**       | 4             | Use la IA de manera eficiente para darle mas densidad al proyecto/codigo |
+| **Responsabilidad y compromiso**          | 4.5             | Desarrolle todas mis tareas asignadas |
+| **Contribución técnica**     | 4.5             | Implementé el sistema de herencia y/o agregación |
+| **Uso de asistentes de IA**       | 5             | Use la IA de manera eficiente para darle mas densidad al proyecto/codigo |
 | **Subtotal**                | **0/20**     |             |
 
 ---
@@ -91,9 +91,9 @@
 | Criterio                     | Puntaje (1-5) | Comentarios |
 |------------------------------|---------------|-------------|
 | **Colaboración y trabajo en equipo**   | 5             |Estuve presente en todas las reuniones |
-| **Responsabilidad y compromiso**          | 4             | Desarrolle todas mis tareas asignadas |
+| **Responsabilidad y compromiso**          | 5             | Desarrolle todas mis tareas asignadas |
 | **Contribución técnica**     | 5             | Implementé el sistema de herencia y/o agregación |
-| **Uso de asistentes de IA**       | 4             | Use la IA de manera eficiente para darle mas densidad al proyecto/codigo|
+| **Uso de asistentes de IA**       | 5             | Use la IA de manera eficiente para darle mas densidad al proyecto/codigo|
 | **Subtotal**                | **0/20**     |             |
 
 ### Coevaluacion JUAN CAMILO ESPINOSA a JUAN FELIPE SANCHEZ:
@@ -101,9 +101,9 @@
 | Criterio                     | Puntaje (1-5) | Comentarios |
 |------------------------------|---------------|-------------|
 | **Colaboración y trabajo en equipo**   | 5             | Estuve presente en todas las reuniones |
-| **Responsabilidad y compromiso**          | 4             | Desarrolle todas mis tareas asignadas |
+| **Responsabilidad y compromiso**          | 5             | Desarrolle todas mis tareas asignadas |
 | **Contribución técnica**     | 5             | Implementé el sistema de herencia y/o agregación |
-| **Uso de asistentes de IA**       | 4             | Use la IA de manera eficiente para darle mas densidad al proyecto/codigo |
+| **Uso de asistentes de IA**       | 5             | Use la IA de manera eficiente para darle mas densidad al proyecto/codigo |
 | **Subtotal**                | **0/20**     |             |
 
 
