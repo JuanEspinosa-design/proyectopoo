@@ -148,9 +148,9 @@ file:///C:/Users/juanf/OneDrive/Desktop/Javeriana/2do_semestre/Programaci%C3%B3n
 
 | Nombre del Integrante | Rol Principal | Responsabilidades Clave |
 |-----------------------|--------------|-------------------------|
-| Samuel Cuervo | Líder de Proyecto | Arquitectura del sistema, coordinación del equipo |
-| Juan Felipe Sanchez | Desarrolladora Backend | Implementación de `Ecosistema` y `Mapa` |
-| Juan Camilo Espinosa | Desarrollador de IA | Lógica de comportamiento de criaturas |
+| Samuel Cuervo | Desarrollador Backend | Arquitectura del sistema, coordinación del equipo |
+| Juan Felipe Sanchez | Desarrollador Backend - Desarrollador README | Implementación de `Ecosistema` y `Mapa` |
+| Juan Camilo Espinosa |  Líder de Proyecto - Desarrollador README | Lógica de comportamiento de criaturas |
 
 
 **Contribuciones destacadas:**
