@@ -139,7 +139,7 @@ classDiagram
 ```
 ---
 
-## 🔎 archivo html creado por Doxygen:
+## 🔎 ARCHIVO HTML CREADO POR DOXYGEN:
 file:///C:/Users/juanf/OneDrive/Desktop/Javeriana/2do_semestre/Programaci%C3%B3n%20orientada%20a%20objetos/html/index.html
 
 ## CRÉDITOS Y ROLES DEL EQUIPO:
@@ -161,8 +161,8 @@ file:///C:/Users/juanf/OneDrive/Desktop/Javeriana/2do_semestre/Programaci%C3%B3n
 ---
 
 ### AGREADECIMIENTOS ESPECIALES 🤍:
-- **Profesorcito**: Por su asesoría en diseño orientado a objetos
-- **IA**: Por sus sugerencias en algoritmos de comportamiento
+- **Profesorcito**: Profesorcito estamos infinitamente agradecidos por su enseñanza en este semestre, queremos dejarle saber que disfrutamos el curso aunque habian momentos de estres pero se logró llevar a cabo todo gracias a usted profesorcio, lo queremos mucho.
+- **IA**: Por ser generadora de ideas y cambios tanto en el codigo como en repositorio.
 
 *Todos los miembros participaron activamente en reuniones semanales y revisiones de código.*
 
