@@ -1,4 +1,4 @@
-# 🌿🦒 Mundo de Criaturas - Simulación de Ecosistema con POO
+# 🌿🦒🐊🍉 Mundo de Criaturas - Simulación de Ecosistema con POO
 
 ## 🤔 ¿COMO CLONAR EL REPOSITORIO?
 En la terminal de git bash pon: git clone https://github.com/tuusuario/proyectopoo.git
