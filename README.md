@@ -162,7 +162,7 @@ file:///C:/Users/juanf/OneDrive/Desktop/Javeriana/2do_semestre/Programaci%C3%B3n
 
 ### AGREADECIMIENTOS ESPECIALES 🤍:
 - **Profesorcito**: Profesorcito estamos infinitamente agradecidos por su enseñanza en este semestre, queremos dejarle saber que disfrutamos el curso aunque habian momentos de estres pero se logró llevar a cabo todo gracias a usted profesorcio, lo queremos mucho.
-- **IA**: Por ser generadora de ideas y cambios tanto en el codigo como en repositorio.
+- **IA**: Por ser generadora de ideas y cambios tanto en el codigo como en el repositorio.
 
 *Todos los miembros participaron activamente en reuniones semanales y revisiones de código.*
 
