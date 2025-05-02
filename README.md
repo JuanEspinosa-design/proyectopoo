@@ -26,33 +26,98 @@ Simulación de un ecosistema virtual donde criaturas (animales y plantas) intera
 | `Celda` | Contiene criaturas y recursos (agua/comida) |
 | `Ecosistema` | Controla la simulación y turnos |
 
-## Estructura de Clases
+## 🧮 Diagrama de Clases Estructurado
+
 ```mermaid
 classDiagram
     direction TB
-    class CriaturaBase{
+
+    class CriaturaBase {
         +string nombre
         +int vida
         +int ataque
-        +moverse()
-        +actuar() virtual
+        +int posx
+        +int posy
+        +moverse(Mapa& mapa) void
+        +actuar(Mapa& mapa)* void
+        +recibirAtaque(int daño) virtual void
+        +mostrar()* void
+        +getNombre() string
+        +getVida() int
     }
-    class Animal{
+    
+    class Animal {
         +string tipo
-        +mutar() virtual
+        +int niveldehambre
+        +string preferencia
+        +string personalidad
+        +mutar() virtual void
+        +regenerarvida(int cantidad) void
     }
-    class Planta{
-        +int frutos
+    
+    class Planta {
+       +int frutos
+        +getFrutos() int
+        +recibirAtaque(int daño) void
+        +actuar(Mapa& mapa) void
     }
-    class glorbo{
-        +int escudo
-        +actuar() override
+    
+    class glorbo {
+       +int escudo
+        +recibirAtaque(int daño) override void
+        +actuar(Mapa& mapa) override void
+        +getescudo() int
     }
-    class jirafa{
+    
+    class jirafa {
         +int salto
-        +mutar() override
+        +recibirAtaque(int daño) override void
+        +actuar(Mapa& mapa) override void
+        +getsalto() int
+        +mutar() override void
     }
+    
+    class Celda {
+       -bool tieneAgua
+        -bool tieneComida
+        -vector<shared_ptr<CriaturaBase>> criaturas
+        +setAgua(bool agua) void
+        +setComida(bool comida) void
+        +hayAgua() bool
+        +hayComida() bool
+        +agregarCriatura(shared_ptr<CriaturaBase>) void
+        +eliminarCriatura(shared_ptr<CriaturaBase>) void
+    }
+    
+    class Mapa {
+       -int filas
+        -int columnas
+        -vector<vector<Celda>> celdas
+        +obtenerCelda(int x, int y) Celda&
+        +mostrarMapa() void
+        +getFilas() int
+        +getColumnas() int
+    }
+    
+    class Ecosistema {
+        -shared_ptr<Mapa> mapa
+        -vector<shared_ptr<CriaturaBase>> criaturas
+        -int cicloActual
+        +agregarCriatura(shared_ptr<CriaturaBase>, int x, int y) void
+        +simularTurno() void
+        +mostrarMapa() void
+        +removerMuertas() void
+        +agregarAguaAleatoria(int cantidad) void
+    }
+    
     CriaturaBase <|-- Animal
     CriaturaBase <|-- Planta
     Animal <|-- glorbo
     Animal <|-- jirafa
+    
+    Ecosistema "1" *-- "1" Mapa
+    Mapa "1" *-- "*" Celda
+    Celda "1" o-- "*" CriaturaBase
+    
+    glorbo --> jirafa : ataca
+    jirafa --> Planta : consume
