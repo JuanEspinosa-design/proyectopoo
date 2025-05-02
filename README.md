@@ -1,12 +1,12 @@
 # 🌿🦒 Mundo de Criaturas - Simulación de Ecosistema con POO
 
-## ¿COMO CLONAR EL REPOSITORIO?
-En la terminal de bash pon: git clone https://github.com/tuusuario/proyectopoo.git
+## 🤔 ¿COMO CLONAR EL REPOSITORIO?
+En la terminal de git bash pon: git clone https://github.com/tuusuario/proyectopoo.git
 - Luego: cd proyectopoo
 
-# MANUAL DE USUARIO:
+# 🧐 MANUAL DE USUARIO:
 
-## FUNCIONALIDADES PRINCIPALES
+## 🤓 FUNCIONALIDADES PRINCIPALES
 - **Simulación por turnos**: Avanza el ecosistema paso a paso
 - **Sistema de interacciones**:
   - Depredación (glorbos → jirafas)
@@ -138,6 +138,9 @@ classDiagram
     jirafa --> Planta : consume
 ```
 ---
+
+## 🔎 archivo html creado por Doxygen:
+file:///C:/Users/juanf/OneDrive/Desktop/Javeriana/2do_semestre/Programaci%C3%B3n%20orientada%20a%20objetos/html/index.html
 
 ## CRÉDITOS Y ROLES DEL EQUIPO:
 
