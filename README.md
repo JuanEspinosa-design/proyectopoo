@@ -1,30 +1,39 @@
 # 🌿🦒 Mundo de Criaturas - Simulación de Ecosistema con POO
 
-## ¿Como clonar el repositorio?
+## ¿COMO CLONAR EL REPOSITORIO?
 En la terminal de bash pon: git clone https://github.com/tuusuario/proyectopoo.git
 - Luego: cd proyectopoo
 
+# MANUAL DE USUARIO:
 
-## Descripción
+## FUNCIONALIDADES PRINCIPALES
+- **Simulación por turnos**: Avanza el ecosistema paso a paso
+- **Sistema de interacciones**:
+  - Depredación (glorbos → jirafas)
+  - Herbivoría (jirafas → plantas)
+  - Efectos ambientales (agua mejora atributos)
+- **Evolución dinámica**: Mutaciones que modifican habilidades
+
+## DESCRIPCIÓN:
 Simulación de un ecosistema virtual donde criaturas (animales y plantas) interactúan en un mapa bidimensional, implementando:
 - Herencia multiple (`CriaturaBase → Animal → glorbo/jirafa`)
 - Polimorfismo (métodos virtuales `actuar()`, `mostrar()`)
 - Gestión de memoria con smart pointers (`shared_ptr`, `weak_ptr`)
 - Relaciones de agregación/composición entre clases
-  ### ¿Qué encontramos en este proyecto?
+  ### ¿QUÉ ENCONTRAMOS EN ESTE PROYECTO?
 | Clase | Descripción |
 |-------|-------------|
 | `CriaturaBase` | Clase abstracta base con posición, vida y ataque |
 | `Animal` | Clase intermedia con hambre, preferencias y personalidad |
 | `Planta` | Vegetales con sistema de frutos |
 
-### Criaturas
+### CRIATURAS:
 | Clase | Características |
 |-------|-----------------|
 | `glorbo` | Depredador con escudo que ataca jirafas |
 | `jirafa` | Herbívoro que esquiva y come plantas |
 
-### Mundo
+### MUNDO:
 | Clase | Función |
 |-------|---------|
 | `Mapa` | Matriz de celdas para posicionamiento |
@@ -32,7 +41,7 @@ Simulación de un ecosistema virtual donde criaturas (animales y plantas) intera
 | `Ecosistema` | Controla la simulación y turnos |
 
 
-## 🧮 Diagrama de Clases Estructurado
+## DIAGRAMA DE CLASES UML:
 
 ```mermaid
 classDiagram
