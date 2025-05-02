@@ -136,5 +136,29 @@ classDiagram
     
     glorbo --> jirafa : ataca
     jirafa --> Planta : consume
+```
 
+## CRÉDITOS Y ROLES DEL EQUIPO:
+
+**Integrantes del proyecto y sus contribuciones principales:**
+
+| Nombre del Integrante | Rol Principal | Responsabilidades Clave |
+|-----------------------|--------------|-------------------------|
+| Samuel Cuervo | Líder de Proyecto | Arquitectura del sistema, coordinación del equipo |
+| Juan Felipe Sanchez | Desarrolladora Backend | Implementación de `Ecosistema` y `Mapa` |
+| Juan Camilo Espinosa | Desarrollador de IA | Lógica de comportamiento de criaturas |
+
+
+**Contribuciones destacadas:**
+- **Samuel Cuervo**: Diseñó la jerarquía de clases base y el sistema de turnos
+- **Juan Felipe Sanchez**: Implementó el sistema de gestión de memoria con smart pointers
+- **Juan Camilo Espinosa**: Desarrolló los algoritmos de mutación y evolución
+
+---
+
+### AGREADECIMIENTOS ESPECIALES 🤍:
+- **Profesorcito**: Por su asesoría en diseño orientado a objetos
+- **IA**: Por sus sugerencias en algoritmos de comportamiento
+
+*Todos los miembros participaron activamente en reuniones semanales y revisiones de código.*
 
