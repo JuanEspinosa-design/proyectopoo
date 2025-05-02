@@ -1,5 +1,10 @@
 # 🌿🦒 Mundo de Criaturas - Simulación de Ecosistema con POO
 
+## ¿Como clonar el repositorio?
+En la terminal de bash pon: git clone https://github.com/tuusuario/proyectopoo.git
+- Luego: cd proyectopoo
+
+
 ## Descripción
 Simulación de un ecosistema virtual donde criaturas (animales y plantas) interactúan en un mapa bidimensional, implementando:
 - Herencia multiple (`CriaturaBase → Animal → glorbo/jirafa`)
@@ -25,6 +30,7 @@ Simulación de un ecosistema virtual donde criaturas (animales y plantas) intera
 | `Mapa` | Matriz de celdas para posicionamiento |
 | `Celda` | Contiene criaturas y recursos (agua/comida) |
 | `Ecosistema` | Controla la simulación y turnos |
+
 
 ## 🧮 Diagrama de Clases Estructurado
 
@@ -121,3 +127,5 @@ classDiagram
     
     glorbo --> jirafa : ataca
     jirafa --> Planta : consume
+
+
