@@ -137,6 +137,7 @@ classDiagram
     glorbo --> jirafa : ataca
     jirafa --> Planta : consume
 ```
+---
 
 ## CRÉDITOS Y ROLES DEL EQUIPO:
 
