@@ -1,6 +1,6 @@
 # 🌿🦒 Mundo de Criaturas - Simulación Ecosistémica con POO
 
-## 📌 Descripción
+## Descripción
 Simulación de un ecosistema virtual donde criaturas (animales y plantas) interactúan en un mapa bidimensional, implementando:
 - Herencia multiple (`CriaturaBase → Animal → glorbo/jirafa`)
 - Polimorfismo (métodos virtuales `actuar()`, `mostrar()`)
@@ -26,7 +26,7 @@ Simulación de un ecosistema virtual donde criaturas (animales y plantas) intera
 | `Celda` | Contiene criaturas y recursos (agua/comida) |
 | `Ecosistema` | Controla la simulación y turnos |
 
-## 🧬 Estructura de Clases
+## Estructura de Clases
 ```mermaid
 classDiagram
     direction TB
